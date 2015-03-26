@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22609.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RequireHttpsExceptForLocalHost", "src\RequireHttpsExceptForLocalHost\RequireHttpsExceptForLocalHost.kproj", "{40EF6700-C47F-4B31-A7B5-C672CCF444AF}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RequireHttpsExceptForLocalHostTests", "tests\RequireHttpsExceptForLocalHostTests\RequireHttpsExceptForLocalHostTests.kproj", "{A7CF11D5-5B04-4D2C-8D80-1E2C317898A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7C4F2B70-84AD-436D-AAE6-06719B5573C3}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40EF6700-C47F-4B31-A7B5-C672CCF444AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40EF6700-C47F-4B31-A7B5-C672CCF444AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40EF6700-C47F-4B31-A7B5-C672CCF444AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40EF6700-C47F-4B31-A7B5-C672CCF444AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7CF11D5-5B04-4D2C-8D80-1E2C317898A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7CF11D5-5B04-4D2C-8D80-1E2C317898A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7CF11D5-5B04-4D2C-8D80-1E2C317898A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7CF11D5-5B04-4D2C-8D80-1E2C317898A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
